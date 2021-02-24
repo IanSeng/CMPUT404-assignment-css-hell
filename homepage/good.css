@@ -1,0 +1,147 @@
+html * {
+  font-family: "Gt walsheim", sans-serif;
+  margin: 0;
+}
+
+h2 {
+  padding: 0;
+  margin: 0;
+}
+h3 {
+  padding: 0;
+  margin: 0 0 12px 0;
+}
+h4 {
+  padding: 0;
+  margin: 0 0 16px 0;
+}
+
+p {
+  padding: 0;
+  margin: 0 0 14px 0;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+body {
+  /* max-width: 1024px; */
+  /* margin: 0 auto; */
+  /* padding: 32px 24px; */
+}
+
+header {
+  max-width: 1024px;
+  padding: 24px 0;
+  color: #5a5d59;
+  font-size: 44px;
+  font-weight: bold;
+  text-align: center;
+  font-family: "Brush Script MT", cursive;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+a {
+  font-weight: bold;
+  color: #8e8b8d;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #3a3a3a;
+}
+
+.header-wrapper__text-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 8px 58px;
+  border: solid #ffffff 5px;
+  z-index: 100;
+}
+.header-wrapper__text-container--text {
+  font-size: 100px;
+  color: white;
+  text-shadow: 2px 2px #ababab;
+}
+
+.header-wrapper__profile-pic {
+  margin: 0 0 62px 0;
+  width: 100vw;
+  max-height: 600px;
+  height: 20%;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+nav {
+  display: flex;
+  margin: 0 auto;
+  padding: 24px 0;
+  justify-content: space-around;
+  max-width: 1024px;
+}
+.content {
+  display: flex;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+.content__left {
+  flex-basis: 78%;
+  padding: 12px;
+}
+
+section {
+  margin: 0 0 58px 0;
+}
+
+.sub-header {
+  display: flex;
+  height: 38px;
+  margin: 0 0 16px 0;
+  align-items: center;
+}
+
+.sub-header__tiny-box {
+  width: 10px;
+  height: inherit;
+  background: #6d9197;
+  margin: 0 8px 0 0;
+}
+
+.profile_pic {
+  width: 224px;
+  border-radius: 50%;
+  border: 3px solid #ababab;
+}
+
+.profile_wrapper {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.profile_wrapper__img {
+  padding: 0 16px;
+}
+
+.content__right {
+  text-align: center;
+  padding: 24px;
+  background: #fbfbfb;
+  height: 100%;
+}
+.content__right--header {
+  margin: 0 0 24px 0;
+  padding: 6px 0;
+  border-bottom: solid #6d6961;
+}
+
+footer {
+  text-align: center;
+  background: #5a5d59;
+  color: white;
+  padding: 6px 0;
+}
